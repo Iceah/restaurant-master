@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "201189785406",
-    "firebase_url": "https://restaurant-b60f2.firebaseio.com",
-    "project_id": "restaurant-b60f2",
-    "storage_bucket": "restaurant-b60f2.appspot.com"
+    "project_number": "141181034752",
+    "firebase_url": "https://restaurant-de075.firebaseio.com",
+    "project_id": "restaurant-de075",
+    "storage_bucket": "restaurant-de075.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:201189785406:android:ffbd55c48ea4b923",
+        "mobilesdk_app_id": "1:141181034752:android:b2539a21fc0cfdbd",
         "android_client_info": {
-          "package_name": "com.inkwebandroidfoodordering"
+          "package_name": "com.inkweb.androidfoodordering"
         }
       },
       "oauth_client": [
         {
-          "client_id": "201189785406-daapop1kt1otgl3793f74scd575pekr0.apps.googleusercontent.com",
+          "client_id": "141181034752-g8atfcu08l1k9nut9i0n963aqkrrt3h8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA_Q-9Tn_BmCWlr-p1P8vS-CSlhgB6p5wo"
+          "current_key": "AIzaSyBlA6qWz6bkXZG38RdpozH1pYOsVYVCc7w"
         }
       ],
       "services": {
