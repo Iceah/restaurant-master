@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.inkweb.androidfoodordering">
+
+    <uses-sdk tools:overrideLibrary="com.paypal.android.sdk.payments" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.inkweb.androidfoodordering.util.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.inkweb.androidfoodordering.IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.inkweb.androidfoodordering.LoginOptionActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.LoginActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.RegistrationActivity" />
+        <activity
+            android:name="com.inkweb.androidfoodordering.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.inkweb.androidfoodordering.SingleMenuCategoryActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.FoodActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.HotDealActvity" />
+        <activity android:name="com.inkweb.androidfoodordering.EditProfileActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.CartActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.CheckoutActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.NewAddressActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.NewPaymentActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.OrderComfirmationActivity" />
+        <activity android:name="com.inkweb.androidfoodordering.OrderProcessActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.inkweb.map.OrderTrackingActivity"
+            android:label="@string/title_activity_order_tracking" />
+        <activity android:name="com.inkweb.notification.NotificationActivity" />
+
+        <service android:name="com.inkweb.notification.CustomsFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.inkweb.notification.CustomsFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.inkweb.androidfoodordering.OrderListActivity"></activity>
+    </application>
+
+</manifest>
