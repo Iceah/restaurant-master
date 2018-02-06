@@ -50,9 +50,9 @@
     <string name="pizza">Pizza</string>
     <string name="manu_categories">Menu</string>
     <string name="paparika_salad">Paparika Salad with Chicken</string>
-    <string name="price">$30.00</string>
+    <string name="price">30.00€</string>
     <string name="with_meat">With meat</string>
-    <string name="view_details">View details</string>
+    <string name="view_details">Voir les details</string>
     <string name="pizza_categories">Pizza Categories</string>
     <string name="shrimps_with_potato">Shrimps with potato</string>
     <string name="menu_details_and_nutrition">Description</string>
@@ -75,16 +75,16 @@
     <string name="address">Adresse : </string>
     <string name="phone">Tel :</string>
     <string name="phone_number">+46720199164</string>
-    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="edit_profile">EDITER PROFIL</string>
     <string name="edit_cart">EDIT CART</string>
     <string name="this_week_menu">OUR WEEKLY MENU</string>
     <string name="contact_information">Informations de contact</string>
     <string name="email">Email :</string>
     <string name="havanarestaurant_yahoo_com">havanarestaurant@yahoo.com</string>
-    <string name="view_detail">View details</string>
-    <string name="view_hot_deals">VIEW HOT DEALS</string>
+    <string name="view_detail">Voir details</string>
+    <string name="view_hot_deals">VOIR HOT DEALS</string>
     <string name="edit_user_profile">Edit User Profile</string>
-    <string name="cannot_edit_user">Cannot edit user! Please try again</string>
+    <string name="cannot_edit_user">Il n\'y a rien dans ce menu !</string>
     <string name="update_success">User profile successfully update</string>
     <string name="customize_your_order">Options</string>
     <string name="no_information">No information found about this menu</string>
@@ -93,9 +93,9 @@
     <string name="order_items">Items: </string>
     <string name="two">2</string>
     <string name="total">Total: </string>
-    <string name="amount">$49.50</string>
+    <string name="amount">49.50€</string>
     <string name="total_amount">Total</string>
-    <string name="vat_amount">$0.00</string>
+    <string name="vat_amount">0.00€</string>
     <string name="order_vat">VAT:</string>
     <string name="subtotal">Sous-total:</string>
     <string name="checkout">COMMANDER</string>
@@ -107,7 +107,7 @@
     <string name="action_cart">Mon panier</string>
     <string name="back_to_menu">RETOUR AU MENU</string>
     <string name="proceed_to_payment">PROCEDER AU PAIEMENT</string>
-    <string name="order_item_list">Order Item List</string>
+    <string name="order_item_list">Contenu de la commande</string>
     <string name="add_new_delivery_address">AJOUTER UNE ADRESSE</string>
     <string name="select_payment_method">AJOUTER UNE CB</string>
     <string name="place_an_order_now">ENVOYER LA COMMANDE</string>
@@ -139,7 +139,7 @@
     <string name="order_in_delivery">Order in delivery</string>
     <string name="order_in_process">Order in process</string>
     <string name="order_has_been_placed">Order has been placed</string>
-    <string name="your_delivery_address">YOUR DELIVERY ADDRESS</string>
+    <string name="your_delivery_address">VOTRE ADRESSE DE LIVRAISON</string>
     <string name="locate_and_track_with_map">LOCATE AND TRACK WITH MAP</string>
     <string name="title_activity_order_tracking">Order Tracking</string>
     <string name="distance_2_km">DISTANCE: 2 KM</string>
@@ -149,6 +149,6 @@
     <string name="pref_title_new_message_notifications">S\'inscrire ou se désenregistrer pour les offres spéciales et promotions</string>
     <string name="pref_header_general">Tab Menu Website</string>
     <string name="push_notifications">Push Notification Settings</string>
-    <string name="past_orders">View Past Order</string>
+    <string name="past_orders">Voir les commandes passées</string>
 
 </resources>

@@ -54,7 +54,7 @@ public class OrderListActivity extends AppCompatActivity {
         orderFullAmount = (TextView)findViewById(R.id.order_full_amounts);
 
         orderNumber = (TextView)findViewById(R.id.order_number);
-        orderNumber.setText("Order number #"+ String.valueOf(orderId));
+        orderNumber.setText("Commande numéro #"+ String.valueOf(orderId));
 
 
         orderRecyclerView = (RecyclerView)findViewById(R.id.checkout_item);

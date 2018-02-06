@@ -39,7 +39,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryViewHolder>{
 
         holder.deliveryDate.setText(Helper.dateFormatting(historyObject.getOrderDate()));
         holder.deliveryStatus.setText(historyObject.getOrderStatus());
-        holder.orderName.setText("Order num: #" + String.valueOf(historyObject.getId()));
+        holder.orderName.setText("Commande : #" + String.valueOf(historyObject.getId()));
         holder.orderPrice.setText("$" + String.valueOf(historyObject.getOrderPrice()) + "0");
         holder.orderTracking.setOnClickListener(new View.OnClickListener() {
             @Override
